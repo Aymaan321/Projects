@@ -20,7 +20,7 @@ def calculate_interest():
 
 window = tk.Tk()
 window.geometry("400x400")
-window.title("Age/Interest Calculator App")  
+window.title("Age(Interest) Calculator App")  
 
 tk.Label(window, text="Original Amount:").grid(row=0, column=0, padx=10, pady=10, sticky="e")
 original_amount_entry = tk.Entry(window)
@@ -41,3 +41,4 @@ result_label = tk.Label(window, text="", font=("Bahnschrift", 12), fg="#182a47")
 result_label.grid(row=4, columnspan=2, pady=20)
 
 window.mainloop()
+
